@@ -1,4 +1,4 @@
-import ProductCard from "../Components/productCard";
+import ProductCard from "../components/ProductCard";
 import { getProducts } from "../data/products";
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
       <div className="home-hero">
         <h1 className="home-title">welcome to Shophub</h1>
         <p className="home-subtitle">
-          Discover amaizng products at great prices
+          Discover amazing products at great prices
         </p>
       </div>
       <div className="container">
